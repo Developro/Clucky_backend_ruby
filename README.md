@@ -1,4 +1,4 @@
-# Clucky_backend_ruby 
+# Clucky_backend ruby 
 
 <pre>
 Используемые заголовки:

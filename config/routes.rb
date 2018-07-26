@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :users
+  scope '/api' do
+    post 'auth/register'
+    post 'auth/login'
+    post 'auth/logout'
+    post 'auth/refresh'
+  end
 end
